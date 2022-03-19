@@ -2,7 +2,7 @@
 
 **Project status:** ``✅ Active`` ([More information...](https://github.com/hexle-at/project-info/blob/main/docs/status.md))
 
-This standalone java class can export any chat from discord, as long as your bot has enaugh permission!
+This standalone java class can export any chat from discord, as long as your bot has enough permission!
 
 <br>
 
@@ -17,7 +17,7 @@ Discord-JDA [Link](https://github.com/DV8FromTheWorld/JDA)
 
 ### 📘Wiki:
 
-In our wiki, you find all information you need to use the ChatExporter.\
+In our wiki, you are able to find all information you need to use the ChatExporter.\
 📖 https://github.com/hexle-at/DiscordChatExporter-JDA/wiki 
 
 <br>
