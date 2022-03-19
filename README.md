@@ -34,6 +34,6 @@ In our wiki, you find all information you need to use the ChatExporter.\
 
 ### 💡Features:
 
-➕ If you have any ideas you can open an issue and tag it with __new-feature__. [Issues](https://github.com/hexle-at/DiscordChatExporter-JDA/issues)\
+➕ If you have any ideas you can open an issue and tag it with __suggestion__. [Issues](https://github.com/hexle-at/DiscordChatExporter-JDA/issues)\
 ➕ You can also join our Discord and open a ticket there. [Discord-Hexle](https://dc.hexle.at) 
 
