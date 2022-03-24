@@ -34,16 +34,16 @@ In our wiki, you are able to find all information you need to use the ChatExport
 
 ### 💡Features:
 
-➕ Embeds
-➕ Images
-➕ Files
-➕ Messages
-➕ Emojis (Non-Custom are NOT available)
-➕ Reactions
-➕ Links
-➕ Avatar, Badges
-➕ TimeCreated, TimeEdited
-➕ WebHooks
+➕ Embeds <br>
+➕ Images <br>
+➕ Files <br>
+➕ Messages <br>
+➕ Emojis (Non-Custom are NOT available) <br>
+➕ Reactions <br>
+➕ Links <br>
+➕ Avatar, Badges <br>
+➕ TimeCreated, TimeEdited <br>
+➕ WebHooks <br>
 
 ➕ If you have any ideas you can open an issue and tag it with __suggestion__. [Issues](https://github.com/hexle-at/DiscordChatExporter-JDA/issues)\
 ➕ You can also join our Discord and open a ticket there. [Discord-Hexle](https://dc.hexle.at) 
