@@ -4,6 +4,7 @@
 
 This standalone java class can export any textchannel from discord, as long as your bot has enough permission!
 
+Demo: https://hexle.at/api/discord_chat_exporter/demoExport.html
 <br>
 
 
