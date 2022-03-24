@@ -20,7 +20,7 @@
  * INFORMATION:
  * If you need to update this class - just copy and replace everything in here!!!
  */
-package hexle.at.api.chatexport;
+package at.hexle.api;
 
 import net.dv8tion.jda.api.entities.*;
 import java.io.BufferedWriter;
