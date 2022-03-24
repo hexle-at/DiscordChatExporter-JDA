@@ -9,8 +9,9 @@ Demo: https://hexle.at/api/discord_chat_exporter/demoExport.html
 
 Exports **1.000 messages** in a channel in less than **10 seconds**! (If there is a bad internet connection / CPU it might take some seconds longer!)<br>
 -> We have exported 3.000 messages in 29.78 seconds!<br>
-How to calculate the export time: **MESSAGE_AMOUNT/100 = SECONDS**
+How to calculate the export time: **MESSAGE_AMOUNT/100 = SECONDS**<br>
 
+[HowToUse](https://github.com/hexle-at/DiscordChatExporter-JDA/wiki#how-to-use) -> WIKI
 
 <br>
 
