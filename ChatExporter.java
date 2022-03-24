@@ -20,7 +20,7 @@
  * INFORMATION:
  * If you need to update this class - just copy and replace everything in here!!!
  */
-package at.hexle.api;
+package hexle.at.api.chatexport;
 
 import net.dv8tion.jda.api.entities.*;
 import java.io.BufferedWriter;
@@ -43,7 +43,7 @@ public class ChatExporter {
     private String version = "1.0.0";
     private BufferedWriter bufferedWriter;
     private TextChannel textChannel;
-    private final int maxExportMessages = 2000;
+    private final int maxExportMessages = 3000;
     //Set the max amount of messages for one export; Theoretically you can set it to whatever you want
     //If there are more messages requested to export, only as much as the limit says will be exported.
 
@@ -579,6 +579,7 @@ public class ChatExporter {
                 start = true;
             }
         }
+        formattedText = formattedText.replaceAll("'", "\\'");
         return formattedText;
     }
 
@@ -588,6 +589,7 @@ public class ChatExporter {
             reactions += "<div class=\"messageReactions\">\n";
             StringBuilder reactionsBuilder = new StringBuilder(reactions);
             for (MessageReaction reaction : reactionList) {
+                if(reaction.getReactionEmote().isEmote()) continue;
                 reactionsBuilder.append("<div class=\"messageReaction\">").append(reaction.getReactionEmote().getEmoji()).append(" ").append(reaction.getCount()).append("</div>\n");
             }
             reactions = reactionsBuilder.toString();
