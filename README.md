@@ -39,7 +39,7 @@ In our wiki, you are able to find all information you need to use the ChatExport
 ➕ Images <br>
 ➕ Files <br>
 ➕ Messages <br>
-➕ Emojis (Non-Custom are NOT available) <br>
+➕ Emojis (Custom are NOT available) <br>
 ➕ Reactions <br>
 ➕ Links <br>
 ➕ Avatar, Badges <br>
