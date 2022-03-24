@@ -7,6 +7,13 @@ This standalone java class can export any textchannel from discord, as long as y
 Demo: https://hexle.at/api/discord_chat_exporter/demoExport.html
 <br>
 
+Exports **1.000 messages** in a channel in less than **10 seconds**! (If there is a bad internet connection / CPU it might take some seconds longer!)<br>
+-> We have exported 3.000 messages in 29.78 seconds!<br>
+How to calculate the export time: **MESSAGE_AMOUNT/100 = SECONDS**
+
+
+<br>
+
 
 ### 📃Dependencies:
 
@@ -41,7 +48,6 @@ In our wiki, you are able to find all information you need to use the ChatExport
 ➕ Messages <br>
 ➕ Emojis (Custom are NOT available) <br>
 ➕ Reactions <br>
-➕ Links <br>
 ➕ Avatar, Badges <br>
 ➕ TimeCreated, TimeEdited <br>
 ➕ WebHooks <br>
