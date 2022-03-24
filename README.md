@@ -2,7 +2,7 @@
 
 **Project status:** ``✅ Active`` ([More information...](https://github.com/hexle-at/project-info/blob/main/docs/status.md))
 
-This standalone java class can export any chat from discord, as long as your bot has enough permission!
+This standalone java class can export any textchannel from discord, as long as your bot has enough permission!
 
 <br>
 
@@ -33,6 +33,17 @@ In our wiki, you are able to find all information you need to use the ChatExport
 
 
 ### 💡Features:
+
+➕ Embeds
+➕ Images
+➕ Files
+➕ Messages
+➕ Emojis (Non-Custom are NOT available)
+➕ Reactions
+➕ Links
+➕ Avatar, Badges
+➕ TimeCreated, TimeEdited
+➕ WebHooks
 
 ➕ If you have any ideas you can open an issue and tag it with __suggestion__. [Issues](https://github.com/hexle-at/DiscordChatExporter-JDA/issues)\
 ➕ You can also join our Discord and open a ticket there. [Discord-Hexle](https://dc.hexle.at) 
