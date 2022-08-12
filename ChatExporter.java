@@ -40,7 +40,7 @@ import java.util.Objects;
  */
 public class ChatExporter {
 
-    private String version = "1.0.0";
+    private String version = "1.0.1";
     private BufferedWriter bufferedWriter;
     private TextChannel textChannel;
     private final int maxExportMessages = 3000;
@@ -51,11 +51,23 @@ public class ChatExporter {
      * This function exports a discord TextChannel, you just need to pass the parameters
      *
      * @param textChannel    The channel that should be exported
-     * @param message        The reference message -> Most likely the command that the user entered. e.g: `!export 100` this message will be provided to this function
+     * @param message        The referenced Message -> Most likely the command that the user entered. e.g: `!export 100` this message will be provided to this function
      * @param count          The amount of messages that should be exported. ^^maxExportMessages^^ if 0 then it will be set to 1
      * @param exportFileName The file name when the file is exported. Leave empty or null if you want to use the provided "Name-System": CHANNEL-NAME_DD_MM_YYYY_HH_MM_SS.html
      */
     public File exportChat(TextChannel textChannel, Message message, int count, String exportFileName) {
+        return exportChat(textChannel, message.getTimeCreated(), count, exportFileName);
+    }
+    
+    /**
+     * This function exports a discord TextChannel, you just need to pass the parameters
+     *
+     * @param textChannel    The channel that should be exported
+     * @param odt            The referenced OffsetDateTime
+     * @param count          The amount of messages that should be exported. ^^maxExportMessages^^ if 0 then it will be set to 1
+     * @param exportFileName The file name when the file is exported. Leave empty or null if you want to use the provided "Name-System": CHANNEL-NAME_DD_MM_YYYY_HH_MM_SS.html
+     */
+    public File exportChat(TextChannel textChannel, OffsetDateTime odt, int count, String exportFileName) {
         this.textChannel = textChannel;
         if (count > maxExportMessages) {
             count = maxExportMessages;
@@ -63,7 +75,7 @@ public class ChatExporter {
             count = 1;
         }
 
-        String fileName = textChannel.getName() + "_" + parseDateTime(message.getTimeCreated()).replaceAll(":", "_") + "_" + message.getTimeCreated().getSecond() + ".html";
+        String fileName = textChannel.getName() + "_" + parseDateTime(odt).replaceAll(":", "_") + "_" + odt.getSecond() + ".html";
         if (exportFileName != null && !exportFileName.equals("")) fileName = exportFileName;
 
         File file = new File(fileName);
